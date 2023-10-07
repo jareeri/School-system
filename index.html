@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head> 
+  <body>
+  <div id="navbar">
+    <span style="color: white; font-size: larger;">My School</span>
+    <a href="">home</a>
+    <a href="">student</a>
+    <a href="">class</a>
+  </div>
+  <h1 style="width: max-content; margin: auto; ">school system</h1>
+    <hr>
+  <div id="main">
+    
+<div>
+    <form action="submit" id="form">
+      <h3 style="width: max-content; margin-left: 20%; ">Inter student information</h3>
+      <label for="fullname" >Full Name :    </label>
+      <input type="text" id="fullname" value="abdullah"/><br /><br />
+      <label for="dateofbirth"> Date Of Birth :</label>
+      <input type="date" id="dateofbirth" /><br /><br />
+      <label for="gender"> Gender :       </label>
+      <span style="color: blue;">Male</span>
+      <input style="width: 50px; "
+        value="0"
+        id="gender"
+        type="range"
+        step="100"
+      /><span style="color: hotpink;">Female</span><br />
+      
+      <br />
+
+      <label for="imageUrl">Image URL:</label>
+      <input type="url" id="imageUrl" name="imageUrl" placeholder="Enter Image URL"><br><br>
+
+      <label for="phonenumber"> Phone Number :</label>
+      <input type="number" id="phonenumber"/><br /><br />
+      <label for="grade"> Grade :</label>
+      <input type="number" id="grade"/><br><br>
+
+      <label for="major">Select your major :</label>
+      <select id="major" name="fruit">
+        <option value="Administration">Administration</option>
+        <option value="it">it</option>
+        <option value="Science">Science</option>
+        <option value="art">art</option>
+      </select><br><br>
+
+      <input type="submit" value="Submit" id="submit">
+    </form>
+  </div>
+  <div><img style="height: 300px; margin-top: 20px; margin-right: 40px;"
+     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFPa7eWKvnCJkQP6GvMK9neA554XZ1XBrXRQ&usqp=CAU" alt="school image">
+    <br>
+    <h2>join our School now</h2>
+    </div>
+    </div>
+  
+
+    <div id="studentInfo">
+      <br>
+        <div id="student-1">
+            <h3 style="width: max-content; margin: auto;">All student</h3>
+          <!-- the information will print here -->
+        </div>
+    </div>
+    
+    <div id="footer">
+      <span style="color: white; font-size: larger;">My School</span>
+      <span style="color: white; font-size: medium;">&copy; My School 2023</span>  
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

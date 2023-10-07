@@ -1,0 +1,64 @@
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: green;
+    border-bottom-left-radius:25px ;
+    border-bottom-right-radius: 25px;
+    padding: 5px;
+    margin-bottom: 15px;
+    height: 60px;
+    font-size: larger;
+    align-items: center;
+}
+#main{display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+/* grid-column: auto,auto; */
+}
+#form{
+    /* display: grid; */
+    width: 500px;
+    padding: 10% ;
+    color: white;
+    font-size: large;
+    /* grid-template-columns: auto,auto; */
+    /* grid-template-rows: auto,auto; */
+    background-color: green;
+    border: darkgreen 5px solid;
+    border-radius: 25px;
+    
+
+} 
+#form input{
+    background-color: rgb(239, 239, 239);
+}
+#studentInfo{
+    display: grid;
+    grid-row: 5;
+    gap: 5px;
+    background-color: white;
+    min-height: 100px  ;
+    height: auto;
+    
+}
+#student-1{
+    display: grid;
+    grid-template-columns: auto,auto;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: green;
+    border-top-left-radius:25px ;
+    border-top-right-radius: 25px;
+    padding: 5px;
+    height: 8vw;
+    margin-top: 30px;
+}
+#submit{
+    border-radius: 25px;
+    color: blue;
+    margin-left:30% ;
+}
